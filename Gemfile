@@ -8,16 +8,16 @@ gem 'rails', github: 'rails/rails'
 # Use SCSS for stylesheets
 gem 'sass-rails', github: 'rails/sass-rails'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier', '>= 2.5.3'
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', '~> 4.2.2'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.0.1'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+gem 'turbolinks', '>= 2.4.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -49,9 +49,9 @@ group :production do
 end
 
 gem 'pg'
-gem 'pg_search'
+gem 'pg_search', '>= 0.7.8'
 
-gem 'haml-rails'
+gem 'haml-rails', '>= 0.5.3'
 gem 'bourbon'
 gem 'neat'
 gem 'bitters'
@@ -63,11 +63,11 @@ gem 'sprockets-coffee-react'
 gem "active_model_serializers", github: 'rails-api/active_model_serializers'
 
 gem 'annotate', github: 'ctran/annotate_models'
-gem 'font-awesome-rails'
+gem 'font-awesome-rails', '>= 4.7.0.4'
 
 gem 'nprogress-rails', github: 'caarlos0/nprogress-rails'
 gem 'momentjs-rails', github: 'derekprior/momentjs-rails'
 gem "js-routes", github: 'railsware/js-routes'
 
-gem 'kaminari'
-gem 'gon'
+gem 'kaminari', '>= 0.16.1'
+gem 'gon', '>= 5.2.3'
